@@ -1,0 +1,80 @@
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    /* height: 100%; */
+    margin: 100px auto;
+    text-align: center;
+    background-color: black;
+    padding: 100px;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .review {
+    min-width: 100%;
+    padding: 20px;
+    line-height: 1.8;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .stars {
+    color: #ffc107;
+    font-size: 1.2rem;
+  }
+  
+  .stars span {
+    color: #ccc;
+    font-size: 1rem;
+  }
+  
+  p {
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+  
+  /* Navigation Arrows */
+  .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .nav.prev {
+    left: 20px;
+  }
+  
+  .nav.next {
+    right: 20px;
+  }
+  
+  .nav:hover {
+    color: #2d2b2b;
+  }
+  
+  /* Dots */
+  .dots-container {
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 80%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active, .dot:hover {
+    background-color: #252524;
+  }

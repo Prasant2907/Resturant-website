@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Banner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesfooter.css">
+    <link rel="stylesheet" href="imagegrid.css">
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo2.jpg" alt="Restaurant Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Explore Our Menu</a></li>
+                <li><a href="#">Craft Beers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Franchise</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-------------------------------------------------------------------------------------------------------------------------->
+    
+
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="v2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h1>We've set sail! <br> Come one, come all</h1>
+            <a href="#" class="btn">Reserve a Table</a>
+        </div>
+    </section>
+<section class="yellowbox">
+    <div>
+
+    </div>
+</section>
+<!-------------------------------------------------------MENU-------------------------------------------------------->
+
+
+
+<section class="menu-section">
+    
+    <div class="menu-container">
+        <div class="menu-image">
+            <img src="img2..avif" alt="Beer and Food">
+        </div>
+        <div class="menu-right">
+            <div><h2>Our Menu </h2></div>
+            <div class="menu-content">
+                <p>Whether you're looking to get your friends together, celebrate an occasion, or want to relax and enjoy good food and drinks with your family, we've got all the options.</p>
+                <div class="menu-btn">
+                    <a href="#" class="menu-button">See Menu</a>
+                </div>
+                <!-- <button class="menu-button"><a href="#"> Menu</a></button> -->
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!----------------------------------------------------Image Grid---------------------------------------------------------------->
+
+<section class="image-grid-section">
+    <div class="image-grid">
+        <div class="grid-item"><img src="img1.avif" alt="image1"></div>
+        <div class="grid-item"><img src="img2.jpeg" alt="image1"></div>
+        <div class="grid-item"><img src="img3.jpg" alt="image1"></div>
+        <div class="grid-item"><img src="img4.jpg" alt="image1"></div>
+        <div class="grid-item"><img src="img5.webp" alt="image1"></div>
+        <div class="grid-item"><img src="img6.jpg" alt="image1"></div>
+        <div class="grid-item"><img src="img7.avif" alt="image1"></div>
+        <div class="grid-item"><img src="img8.avif" alt="image1"></div>
+        <div class="grid-item"><img src="img9.jpeg" alt="image1"></div>
+        <div class="grid-item"><img src="img10.jpg" alt="image1"></div>
+        <div class="grid-item"><img src="img11.jpg" alt="image1"></div>
+        <div class="grid-item"><img src="img12.avif" alt="image1"></div>
+      
+
+    </div>
+</section>
+<!----------------------------------------------------------------------------------------------------------------------------->
+<section class="carousel-container">
+    <div class="carousel">
+      <div class="review">
+        <h3>Sunder Murthy</h3>
+        <div class="stars">
+          ★ ★ ★ ★ ★ <span>via Google Maps</span>
+        </div>
+        <p>
+          Long Boat Brewing is soon to be the talk of the town among Nightlife lovers. The place is conveniently 
+          located off ORR with good parking space. We tasted Coffee, Guava and Pineapple. All tasted great!!
+        </p>
+      </div>
+
+
+      <div class="review">
+        <h3>John Doe</h3>
+        <div class="stars">
+          ★ ★ ★ ★ ☆ <span>via Bharat MAP</span>
+        </div>
+        <p>
+          Fantastic place with amazing drinks and ambiance. The staff were friendly, and the location is perfect. 
+          Highly recommended!
+        </p>
+      </div>
+
+      <div class="review">
+        <h3>Sanujya Chaturvedi</h3>
+        <div class="stars">
+          ★ ★ ★ ★ ★  <span>Karnataka Map</span>
+        </div>
+        <p>
+            Loved the place..... Great ambiance. Super fast service. Waterfall view is really awesome 😎.
+            Thank you for service somnath,he was extremely helpful in selecting the dishes...
+        </p>
+      </div>
+    </div>
+    <!-- Navigation Arrows -->
+    <div class="nav prev" onclick="moveSlide(-1)">&#10094;</div>
+    <div class="nav next" onclick="moveSlide(1)">&#10095;</div>
+    <!-- Dots -->
+    <div class="dots-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+  <script src="script.js"></script>
+<!-------------------------------------------------------FOOTER---------------------------------------------------->
+    <footer>
+          <!-- Logo Section -->
+          <div class="footerimg" >
+            <img src="logo22.jpg" alt="Logo" style="padding-left: 100px;">
+            <p>© 2024 by Long Boat Brewing (RGV BREWING LLP)</p>
+          </div>
+      
+          <!-- Address Section -->
+           <div class="content">
+            <div class="Address">
+                <h3>ADDRESS</h3>
+                <p>1st Main, MSR Layout,</p>
+                <p>Chandra Layout,</p>
+                <p>Marathahalli, Bengaluru,</p>
+                <p>Karnataka 560037</p>
+                
+              </div>
+          
+              <!-- Contact Section -->
+              <div class="Contact">
+                <h3>CONTACT</h3>
+                <p>+91 080 4736 0054</p>
+              </div>
+          
+              <!-- Hours Section -->
+              <div class="Time">
+                <h3>HOURS</h3>
+                <p>OPEN DAILY</p>
+                <p>12PM - 12:30AM</p>
+              </div>
+          
+          
+            <div class="social-media">
+                <a href="#" target="_blank">
+                  <img src="instagram-icon.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="#" target="_blank">
+                  <img src="facebook-icon.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="#" target="_blank">
+                  <img src="youtube-icon.png" alt="YouTube" class="social-icon">
+                </a>
+              </div>     
+
+            <div class="reserve-btn" >
+              <a href="#">Reserve a Table</a>
+            </div>
+           </div>
+         
+      </footer>
+</body>
+</html>
